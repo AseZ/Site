@@ -1,0 +1,117 @@
+body{	
+	background: url(src/background_main.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+}
+#main{
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+	position: relative;	
+	background-color: white;
+	opacity: 0.8;
+	z-index: -1;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	border-radius: 75px;
+}
+#logo{
+	width: 90%;
+	height: 137px;
+	margin: 0px auto;
+	background: url(src/logo.png);
+	position: relative;
+	background-repeat:no-repeat;
+	background-position:center;
+	z-index: 1;
+	opacity: 1;
+}
+#communication{
+	width: 90%;
+	height: 172px;
+	margin: 0px auto;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	background: url(src/communication.png);
+	position: relative;
+	background-repeat:no-repeat;
+	background-position:center;
+	z-index: 1;
+	opacity: 1;
+	border-bottom: 5px solid #00cefc;
+}
+#cost{
+	width: 90%;
+	height: 465px;
+	margin: 0px auto;
+	margin-top: -15px;
+	padding-bottom: 40px;
+	background: url(src/cost.png);
+	position: relative;
+	background-repeat:no-repeat;
+	background-position:center;
+	z-index: 1;
+	opacity: 1;
+	float: center;
+}
+
+	@media only screen and (max-width: 1440px) { 
+	*{
+	margin:0px;
+	padding:0px;
+	}
+	body{	
+		background: url(src/background_main.jpg);
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-position:center;
+	}
+	#main{
+		width: 90%;
+		height: auto;
+		margin: 0px auto;
+		position: relative;	
+		background-color: white;
+		opacity: 0.5;
+		z-index: -1;
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-position:center;
+	}
+	#logo{
+		width: 90%;
+		height: 137px;
+		margin: 0px auto;
+		background: url(src/logo.png);
+		position: relative;
+		background-repeat:no-repeat;
+		background-position:center;
+		z-index: 1;
+		opacity: 1;
+	}
+	#communication{
+		width: 90%;
+		height: 172px;
+		margin: 0px auto;
+		margin-top: 20px;
+		background: url(src/communication.png);
+		position: relative;
+		background-repeat:no-repeat;
+		background-position:center;
+		z-index: 1;
+		opacity: 1;
+	}
+	#cost{
+		width: 90%;
+		height: 465px;
+		margin: 0px auto;
+		background: url(src/cost.png);
+		position: relative;
+		background-repeat:no-repeat;
+		background-position:center;
+		z-index: 1;
+		opacity: 1;
+	}
+	}
